@@ -1,19 +1,19 @@
     header {
-        background-color: #c1e7f7;
-        color: #253d55;
+        background-color: #04646bcc;
+        color: white;
         text-align: center;
         font-weight: bold;
+        padding: 2rem 1rem;
     }
     h2 {
-        background-color: #c1e7f7;
         color: #008080 ;
      }
     body{
-        background-color: #c1e7f7;
+        background-color: #9ef5fccc;
         color: black ;
     }
     footer {
-        background-color: rgb(2, 99, 163);
+        background-color: rgb(0, 0, 0);
         color: white;
         border: blue;
         padding: 5px;
@@ -21,17 +21,22 @@
         font-weight: bold;
         font-size: 20PX;
      }
-    div {
-        width: auto;
-        height: auto;
-        padding: 5px;
-        border: 5px solid rgb(255, 255, 255);
-        margin: auto;
-        text-align: center;
-     }
+
      iframe {
         border: 5px solid rgb(216, 208, 96);
         margin: auto;
         text-align: center;
 
      }
+     .container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      .section {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 2rem;
+        padding: 2rem;
+      }
