@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-size: 6vw;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .left {
+    background-color: #252426;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+    color: aliceblue;
+  }
+  
+  .main {
+    background-color: #A6A272;
+    padding: 20px;
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  .right {
+    background-color: #D9D0A7;
+    padding: 20px;
+    float: right;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  /* Use a media query to add a break point at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
