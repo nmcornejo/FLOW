@@ -1,0 +1,21 @@
+.contenedor {
+    display: flex;
+    background-color: aqua;
+    padding: 500px;
+    flex-direction: row;
+    gap: 15px; 
+    flex-wrap: wrap; 
+    align-items: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.contenedor > div {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(215, 180, 248);
+        border: 2px solid black;
+}
+
